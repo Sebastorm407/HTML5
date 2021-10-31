@@ -1,0 +1,27 @@
+/* Combinador Hermano cercano / Solo se aplica el estilo si alguna 
+   etiqueta p esta debajo de una etiqueta h2 */
+
+h2 + p {
+    color: red;
+}
+
+/* Combinador Hermano General / Todas las etiquetas p que tengan un
+   h2 como hermano general seran incluidas*/
+
+h2 ~ p {
+    color: red;
+}
+
+/* Combinador Hijo / La etiqueta p que sea hija directa de la etiqueta
+   div para agregar los estilos*/
+
+div > p {
+    color: blue;
+}
+
+/* Combinador descendiente / A todas las etiquetas p que esten adentro de
+   una etiqueta div aplicar los estilos*/
+
+div p {
+    color: blue;
+}
