@@ -1,0 +1,15 @@
+p {
+    color: blue;
+}
+
+/* Clase */
+
+.parrafo {
+    color: red;
+}
+
+/* ID */
+
+#texto {
+    color: yellow;
+}
